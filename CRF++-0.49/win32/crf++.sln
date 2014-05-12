@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcrfpp", "libcrfpp.vcproj", "{2402F456-EF16-46E0-8B4E-D0516F735120}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "crf_learn", "crf_learn.vcproj", "{606C6A2F-AF91-4802-9B94-702F425F4318}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "crf_test", "crf_test.vcproj", "{52580415-6CD4-401B-961B-506049839E83}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2402F456-EF16-46E0-8B4E-D0516F735120}.Debug.ActiveCfg = Debug|Win32
+		{2402F456-EF16-46E0-8B4E-D0516F735120}.Debug.Build.0 = Debug|Win32
+		{2402F456-EF16-46E0-8B4E-D0516F735120}.Release.ActiveCfg = Release|Win32
+		{2402F456-EF16-46E0-8B4E-D0516F735120}.Release.Build.0 = Release|Win32
+		{606C6A2F-AF91-4802-9B94-702F425F4318}.Debug.ActiveCfg = Debug|Win32
+		{606C6A2F-AF91-4802-9B94-702F425F4318}.Debug.Build.0 = Debug|Win32
+		{606C6A2F-AF91-4802-9B94-702F425F4318}.Release.ActiveCfg = Release|Win32
+		{606C6A2F-AF91-4802-9B94-702F425F4318}.Release.Build.0 = Release|Win32
+		{52580415-6CD4-401B-961B-506049839E83}.Debug.ActiveCfg = Debug|Win32
+		{52580415-6CD4-401B-961B-506049839E83}.Debug.Build.0 = Debug|Win32
+		{52580415-6CD4-401B-961B-506049839E83}.Release.ActiveCfg = Release|Win32
+		{52580415-6CD4-401B-961B-506049839E83}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
